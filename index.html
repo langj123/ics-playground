@@ -4,28 +4,65 @@
     <title>ICS - Good Times with Shapes</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/a7f9c3ff-98cf-4b7f-9b3f-5fd6b84f9966.css"/>
     <link rel="stylesheet" type="text/css" href="_css/style.css">
   </head>
   <body>
     <div class="wrapper">
         <div class="content">
-            <h1>Portugal? Gonna live it up down ol’ South America way, eh Mikey?</h1>
-            <p>Oh now you love the ten commandments. Yet, you’re the one who so conveniently forgot "Thou shalt protect thy father and honor no one above him unless it be-ith me, thy sweet Lord.
-                "</p>
-            <p>I mean there is so much in life that I haven’t experienced, and now that I’m away from mom I feel like this is my chance to live. I want to dance. I want to make love to a woman. I want to get a checking account. I want to know what it feels like to get my face socked in!</p>
-            <p>Ann, you need to decide whether you want a man or a boy. I know how I’d answer.</p>
+            <section class="section-1">
+                <div class="shape-bounds">
+                    <div class="cont-wrap">
+                      <h1>We Help emerging brands</h1>
+                        <p>Oh now you love the ten commandments. Yet, you’re the one who so conveniently forgot "Thou shalt protect thy father and honor no one above him unless it be-ith me, thy sweet Lord."</p>
+                        <p>I mean there is so much in life that I haven’t experienced, and now that I’m away from mom I feel like this is my chance to live. I want to dance. I want to make love to a woman. I want to get a checking account. I want to know what it feels like to get my face socked in!</p>
+                        <p>Ann, you need to decide whether you want a man or a boy. I know how I’d answer.</p>
+                    </div><!-- .cont-wrap -->
+                    <img src="_img/shape-circle-w.svg" class="shapes spin" alt="" width="100" />
+                    <img src="_img/shape-bolt.svg" class="shapes" alt="" width="130" />
+                </div><!-- .shape-bounds -->
+            </section>
+            <section class="section-2"><div class="cont-wrap col-6">
+                    <img src="_img/nesop.jpg" alt=""></div><div class="cont-wrap col-6">
+                    <div class="cont-copy">
+                    <h1>We Help emerging brands</h1>
+                    <p>Oh now you love the ten commandments. Yet, you’re the one who so conveniently forgot "Thou shalt protect thy father and honor no one above him unless it be-ith me, thy sweet Lord."</p>
+                    </div><!--.cont-copy -->
+                </div><!-- .cont-wrap -->
+            </section>
+            <section class="section-3">
+                <div class="cont-wrap col-12">
+                    <div class="cont-copy">
+                        <h1>The Bancroft</h1>
+                         <p>Oh now you love the ten commandments. Yet, you’re the one who so conveniently forgot "Thou shalt protect thy father and honor no one above him unless it be-ith me, thy sweet Lord."</p>
+                    </div><!--.cont-copy -->
+                </div><!-- .cont-wrap -->
+            </section>
+            <section class="section-4">
+                <div class="header-image">
+
+                </div><!-- .header-image -->
+                <div class="cont-wrap col-12">
+                    <div class="cont-copy">
+                        <h1>The Bancroft</h1>
+                         <p>Oh now you love the ten commandments.</p>
+                    </div><!--.cont-copy -->
+                </div><!-- .cont-wrap -->
+            </section>
+            <footer class="colophon">
+            </footer>
         </div>
-       <!--  <img src="_img/shape-arrow.svg" class="spin" alt="" width="150" />
-        <img src="_img/shape-bolt.svg" class="huge" alt="" width="150" />
-        <img src="_img/shape-circle.svg" class="huge" alt="" width="150" />
-        <img src="_img/shape-diamond.svg" class="spin" alt="" width="150" />
-        <img src="_img/shape-triangle.svg" class="spin" alt="" width="150" /> -->
-        <canvas id="shapes" width="100%" height="100%"></canvas>
     </div><!-- .wrapper -->
 
+
+    <script src="https://use.typekit.net/tmk3lyc.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
-    <script src="_js/canvas.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/utils/Draggable.min.js"></script>
+    <script src="_js/_plugins/ThrowPropsPlugin.js"></script>
+    <script src="_js/_plugins/ScrollTo.js"></script>
+    <script src="_js/shapes.js"></script>
   </body>
 </html>

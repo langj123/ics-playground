@@ -8,7 +8,7 @@ window.addEventListener('load', function(){
 		inMemCtx = inMemCan.getContext('2d'),
 		imgs = ['_img/shape-arrow.svg', '_img/shape-triangle.svg'],
 		newImgs = [],
-		empty = {x:0, y:0, scale: 1};
+		empty = {x:0, y:0, scale: 1};m
 
 
 		for(var i = 0, length1 = imgs.length; i < length1; i++){
